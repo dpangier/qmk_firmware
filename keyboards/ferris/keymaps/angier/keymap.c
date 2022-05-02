@@ -54,10 +54,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_LAYER3] = LAYOUT(
-    TD(DANCE_8),  KC_TRNS, KC_TRNS, KC_TRNS, TD(DANCE_9), LGUI(KC_LBRC), RCS(KC_TAB), RCTL(KC_TAB), LGUI(KC_RBRC), KC_BSPC,
-    TD(DANCE_10), KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL,      TD(DANCE_11),  KC_DOWN,     KC_UP,        TD(DANCE_12),  KC_ENT,
-    TD(DANCE_13), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,     KC_TRNS,       KC_TRNS,     KC_TRNS,      KC_TRNS,       KC_TRNS,
-                                    TO(0),   KC_LSFT,     KC_RALT,       TO(2)
+    TD(DANCE_8),  KC_TRNS, KC_TRNS, KC_TRNS, TD(DANCE_9),    LGUI(KC_LBRC), RCS(KC_TAB),     RCTL(KC_TAB),  LGUI(KC_RBRC), KC_BSPC,
+    TD(DANCE_10), KC_TRNS, KC_TRNS, KC_TRNS, LGUI_T(KC_DEL), TD(DANCE_11),  LGUI_T(KC_DOWN), LALT_T(KC_UP), TD(DANCE_12),  KC_ENT,
+    TD(DANCE_13), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,        KC_TRNS,       KC_TRNS,         KC_TRNS,       KC_TRNS,       KC_TRNS,
+                                    TO(0),   KC_TRNS,        KC_RALT,       TO(1)
   )
 
 };
