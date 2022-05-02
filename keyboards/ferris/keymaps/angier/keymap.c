@@ -33,17 +33,17 @@ enum tap_dance_codes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LAYER0] = LAYOUT(
-    TD(DANCE_0), TD(DANCE_1),  TD(DANCE_2),  KC_P,          KC_Y,    KC_F,  KC_G,         KC_C,         KC_R,         KC_L,
-    KC_A,        LCTL_T(KC_O), LALT_T(KC_E), LGUI_T(KC_U),  KC_I,    KC_D,  RGUI_T(KC_H), RALT_T(KC_T), RCTL_T(KC_N), KC_S,
-    TD(DANCE_3), KC_Q,         KC_J,         KC_K,          KC_X,    KC_B,  KC_M,         KC_W,         KC_V,         KC_Z,
-                                             OSM(MOD_LSFT), KC_BSPC, KC_SPC,TO(1)
+    TD(DANCE_0), TD(DANCE_1),  TD(DANCE_2),  KC_P,         KC_Y,          KC_F,    KC_G,         KC_C,         KC_R,         KC_L,
+    KC_A,        LCTL_T(KC_O), LALT_T(KC_E), LGUI_T(KC_U), KC_I,          KC_D,    RGUI_T(KC_H), RALT_T(KC_T), RCTL_T(KC_N), KC_S,
+    TD(DANCE_3), KC_Q,         KC_J,         KC_K,         KC_X,          KC_B,    KC_M,         KC_W,         KC_V,         KC_Z,
+                                             KC_SPC,       OSM(MOD_LSFT), KC_BSPC, TO(1)
   ),
 
   [_LAYER1] = LAYOUT(
     KC_ESC,  KC_AT,   KC_HASH, TD(DANCE_4), KC_PERC,       KC_CIRC,     KC_AMPR, KC_ASTR, TD(DANCE_5), KC_BSPC,
     KC_TAB,  KC_EQL,  KC_TRNS, KC_TRNS,     KC_QUOT,       TD(DANCE_6), KC_LCBR, KC_RCBR, TD(DANCE_7), KC_ENT,
     KC_TILD, KC_TRNS, KC_TRNS, KC_TRNS,     KC_DQUO,       KC_LBRC,     KC_LPRN, KC_RPRN, KC_RBRC,     TO(3),
-                               TO(0),       OSM(MOD_LSFT), KC_TRNS,     TO(2)
+                               TO(0),       OSM(MOD_LSFT), KC_RALT,     TO(2)
   ),
 
   [_LAYER2] = LAYOUT(
